@@ -1,0 +1,89 @@
+.fruits{
+    background-color: lightgreen;
+    border: 2px dotted green;
+    color: rgb(177, 9, 9);
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.cars{
+    background-color: lightblue;
+    border: 2px s0lid rgb(87, 154, 199);
+    color: rgb(177, 9, 9);
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+#computer{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{display: flex;
+gap: 20px;
+justify-content: center;
+flex-wrap: wrap;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+}
+
+.card{
+    padding:20px;
+    width: 220px;
+    border-radius:12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    transition: transform 0.3s ease, box-shadow0.3s ease;
+    text-align: center;
+}
+.card h2{
+    color:#2563eb;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card p{
+    color: #4b5563;
+    font-size: 1em;
+    line-height: 1.5;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 8px 16px rgba(0,0,0,0.2)
+}
+header{
+background-color: #2563eb;
+}
+.navbar{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+logo{
+    color: #38bdf8;
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
